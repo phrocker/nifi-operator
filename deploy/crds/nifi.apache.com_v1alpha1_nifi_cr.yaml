@@ -1,0 +1,10 @@
+apiVersion: nifi.apache.com/v1alpha1
+kind: NiFi
+metadata:
+  name: nifi2
+spec:
+  # Add fields here
+  size: 10
+  nifi_image: "shburgesnificr.azurecr.io/nifi:1.10.0"
+  zk_connection_string: "zookeeper:2181"
+
